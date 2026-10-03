@@ -6,8 +6,10 @@
     <title>Datenschutzerklärung – BreVo-Rechner</title>
 
     <style>
+
         :root {
             --primary: #E2001A;
+            --primary-dark: #B60015;
             --background: #f7f7f7;
             --card: #ffffff;
             --text: #333333;
@@ -43,6 +45,28 @@
             padding: 0 20px;
         }
 
+        .nav-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.2s ease;
+        }
+
+        .button:hover {
+            background: var(--primary-dark);
+        }
+
         .card {
             background: var(--card);
             border-radius: 12px;
@@ -60,13 +84,6 @@
             padding-left: 25px;
         }
 
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: #666;
-            font-size: 0.9rem;
-        }
-
         .contact-box {
             background: #f5f5f5;
             border-left: 4px solid var(--primary);
@@ -74,7 +91,15 @@
             margin-top: 10px;
         }
 
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 700px) {
+
             .card {
                 padding: 18px;
             }
@@ -82,38 +107,72 @@
             header {
                 padding: 30px 15px;
             }
+
+            .nav-buttons {
+                flex-direction: column;
+            }
+
+            .button {
+                text-align: center;
+            }
         }
+
     </style>
 </head>
 
 <body>
 
 <header>
+
     <h1>Datenschutzerklärung</h1>
-    <p class="subtitle">BreVo-Rechner</p>
+
+    <p class="subtitle">
+        BreVo-Rechner
+    </p>
+
 </header>
 
 <div class="container">
 
-    <div class="card">
-        <h2>Stand</h2>
-        <p>Oktober 2026</p>
+    <div class="nav-buttons">
+
+        <a class="button" href="index.html">
+            ⬅ Zur Startseite
+        </a>
+
+        impressum.html
+            📑 Impressum
+        </a>
+
     </div>
 
     <div class="card">
+
+        <h2>Stand</h2>
+
+        <p>
+            Oktober 2026
+        </p>
+
+    </div>
+
+    <div class="card">
+
         <h2>Verantwortlicher</h2>
 
         <p>
-            Christoph
+            Christoph [Nachname]
         </p>
 
         <div class="contact-box">
-            E-Mail:
-            suppport.brevorechner@gmail.com
+            E-Mail:<br>
+            support.brevorechner@gmail.com
         </div>
+
     </div>
 
     <div class="card">
+
         <h2>Zweck der App</h2>
 
         <p>
@@ -122,13 +181,15 @@
             hinterlegter Tabellenwerte.
 
             Diese Anwendung ist ein privates und unabhängiges Softwareprojekt.
-
+ 
             Es besteht keine Verbindung zur ÖBB, DB, InfraGO oder anderen
             Eisenbahnverkehrs- bzw. Infrastrukturunternehmen.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Verarbeitung personenbezogener Daten</h2>
 
         <p>
@@ -152,9 +213,11 @@
         <p>
             erfasst, gespeichert oder ausgewertet.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Lokale Verarbeitung</h2>
 
         <p>
@@ -166,9 +229,11 @@
             Die eingegebenen Daten werden nicht an externe
             Server übertragen.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Internetverbindung</h2>
 
         <p>
@@ -179,18 +244,22 @@
         <p>
             Die Anwendung übermittelt keine Daten an Dritte.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Offline-Nutzung</h2>
 
         <p>
             Der BreVo-Rechner wurde für die lokale,
             netzunabhängige Nutzung entwickelt.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Datenspeicherung</h2>
 
         <p>
@@ -199,23 +268,27 @@
 
         <p>
             Sollten zukünftige Versionen zusätzliche Funktionen
-            enthalten, wird dieser Datenschutzhinweis
+            enthalten, wird diese Datenschutzerklärung
             entsprechend angepasst.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Bereitstellung dieser Webseite</h2>
 
         <p>
             Diese Datenschutzerklärung wird über GitHub Pages
-            bereitgestellt. Beim Besuch dieser Webseite können
-            technisch notwendige Verbindungsdaten durch den
+            bereitgestellt. Beim Aufruf dieser Webseite können
+            technisch erforderliche Verbindungsdaten durch den
             Hosting-Anbieter verarbeitet werden.
         </p>
+
     </div>
 
     <div class="card">
+
         <h2>Änderungen</h2>
 
         <p>
@@ -223,19 +296,16 @@
             organisatorischen oder rechtlichen Änderungen
             aktualisiert werden.
         </p>
+
     </div>
 
-    <div class="links">
-        <a href="impressum.html">
-            Zum Impressum
-
-        </a>
-    </div>
 </div>
 
 <footer>
     BreVo-Rechner • Datenschutzerklärung
 </footer>
 
+</body>
+</html>
 </body>
 </html>
