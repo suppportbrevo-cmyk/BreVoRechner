@@ -39,7 +39,7 @@
             background: var(--surface);
             border-radius: 16px;
             padding: 40px 30px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .logo {
@@ -62,12 +62,13 @@
             width: 100%;
             background: var(--primary);
             color: white;
-            text-decoration: none;
             padding: 18px;
             margin-bottom: 15px;
+            border: none;
             border-radius: 12px;
             font-size: 1.1rem;
             font-weight: bold;
+            cursor: pointer;
             transition: 0.2s ease;
         }
 
@@ -97,13 +98,15 @@
             Informationen zur App
         </p>
 
-        datenschutz.html
+        <button class="button"
+                onclick="window.location.href='datenschutz.html'">
             📄 Datenschutzerklärung
-        </a>
+        </button>
 
-        impressum.html
+        <button class="button"
+                onclick="window.location.href='impressum.html'">
             📑 Impressum
-        </a>
+        </button>
 
     </div>
 
@@ -113,5 +116,7 @@
 
 </div>
 
+</body>
+</html>
 </body>
 </html>
