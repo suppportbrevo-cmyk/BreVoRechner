@@ -6,20 +6,28 @@
     <title>BreVo-Rechner</title>
 
     <style>
+
         :root {
             --primary: #E2001A;
-            --background: #f7f7f7;
-            --card: #ffffff;
+            --primary-dark: #B60015;
+            --background: #f5f5f5;
+            --surface: #ffffff;
+            --text: #212121;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             background: var(--background);
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            color: var(--text);
             min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .container {
@@ -28,23 +36,31 @@
             text-align: center;
         }
 
+        .card {
+            background: var(--surface);
+            border-radius: 16px;
+            padding: 40px 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
         .logo {
-            font-size: 2rem;
+            font-size: 4rem;
             margin-bottom: 10px;
         }
 
         h1 {
             color: var(--primary);
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .subtitle {
             color: #666;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
         }
 
         .button {
             display: block;
+            width: 100%;
             background: var(--primary);
             color: white;
             text-decoration: none;
@@ -53,18 +69,23 @@
             border-radius: 12px;
             font-size: 1.1rem;
             font-weight: bold;
-            transition: 0.2s;
+            transition: 0.2s ease;
         }
 
         .button:hover {
-            opacity: 0.9;
+            background: var(--primary-dark);
+        }
+
+        .button:active {
+            transform: scale(0.98);
         }
 
         footer {
-            margin-top: 40px;
+            margin-top: 25px;
             color: #666;
             font-size: 0.9rem;
         }
+
     </style>
 </head>
 
@@ -72,23 +93,28 @@
 
 <div class="container">
 
-    <div class="logo">🚆</div>
+    <div class="card">
 
-    <h1>BreVo-Rechner</h1>
+        <div class="logo">🚆</div>
 
-    <p class="subtitle">
-        Informationen zur App
-    </p>
-    <a href="datenschutz.html">
-        Datenschutzerklärung
-    </a>
+        <h1>BreVo-Rechner</h1>
 
-    <a href="impressum.html">
-        Impressum
-    </a>
+        <p class="subtitle">
+            Informationen zur App
+        </p>
+
+        datenschutz.html
+            📄 Datenschutzerklärung
+        </a>
+
+        impressum.html
+            📑 Impressum
+        </a>
+
+    </div>
 
     <footer>
-        BreVo-Rechner · Version 1.0.0
+        BreVo-Rechner • Version 1.0.0
     </footer>
 
 </div>
