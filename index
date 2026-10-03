@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung – BreVo-Rechner</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h1 {
+            color: #E2001A;
+            text-align: center;
+        }
+
+        h2 {
+            color: #E2001A;
+            margin-top: 30px;
+        }
+
+        .stand {
+            text-align: center;
+            color: #666;
+        }
+
+        .box {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Datenschutzerklärung</h1>
+
+    <p class="stand">
+        Stand: Oktober 2026
+    </p>
+
+    <h2>BreVo-Rechner</h2>
+
+    <p>
+        Der BreVo-Rechner unterstützt bei der Berechnung von Festhaltekraft
+        und Sicherungsmitteln anhand hinterlegter Tabellenwerte.
+    </p>
+
+    <h2>Verarbeitung personenbezogener Daten</h2>
+
+    <p>
+        Der BreVo-Rechner verarbeitet keine personenbezogenen Daten.
+    </p>
+
+    <p>
+        Insbesondere werden keine:
+    </p>
+
+    <ul>
+        <li>Namen</li>
+        <li>E-Mail-Adressen</li>
+        <li>Telefonnummern</li>
+        <li>Standortdaten</li>
+        <li>Benutzerkonten</li>
+        <li>Nutzungsprofile</li>
+    </ul>
+
+    <p>
+        erfasst, gespeichert oder ausgewertet.
+    </p>
+
+    <h2>Lokale Verarbeitung</h2>
+
+    <p>
+        Alle Berechnungen erfolgen ausschließlich auf dem Endgerät.
+    </p>
+
+    <p>
+        Die eingegebenen Werte werden nicht an externe Server übertragen.
+    </p>
+
+    <h2>Internetverbindung</h2>
+
+    <p>
+        Für die Nutzung der App ist keine Internetverbindung erforderlich.
+    </p>
+
+    <p>
+        Die Anwendung übermittelt keine Daten an Dritte.
+    </p>
+
+    <h2>Datenspeicherung</h2>
+
+    <p>
+        Die App speichert derzeit keine personenbezogenen Daten.
+    </p>
+
+    <p>
+        Sofern zukünftige Versionen zusätzliche Funktionen enthalten,
+        werden Nutzer hierüber informiert und diese Datenschutzerklärung
+        entsprechend angepasst.
+    </p>
+
+    <h2>Kontakt</h2>
+
+    <div class="box">
+        <strong>Support:</strong><br>
+        suppport.brevorechner@gmail.com
+    </div>
+
+    <h2>Änderungen dieser Datenschutzerklärung</h2>
+
+    <p>
+        Diese Datenschutzerklärung kann bei technischen,
+        organisatorischen oder rechtlichen Änderungen angepasst werden.
+    </p>
+
+</body>
+</html>
