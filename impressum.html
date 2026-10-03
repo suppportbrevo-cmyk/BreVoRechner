@@ -8,6 +8,7 @@
     <style>
         :root {
             --primary: #E2001A;
+            --primary-dark: #B60015;
             --background: #f7f7f7;
             --card: #ffffff;
             --text: #333333;
@@ -28,19 +29,31 @@
             text-align: center;
         }
 
-        h1 {
-            margin: 0;
-        }
-
-        .subtitle {
-            margin-top: 10px;
-            opacity: 0.9;
-        }
-
         .container {
             max-width: 900px;
             margin: 30px auto;
             padding: 0 20px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: var(--primary-dark);
         }
 
         .card {
@@ -53,41 +66,12 @@
 
         h2 {
             color: var(--primary);
-            margin-top: 0;
-        }
-
-        .contact-box {
-            background: #f5f5f5;
-            border-left: 4px solid var(--primary);
-            padding: 12px;
-            margin-top: 10px;
-        }
-
-        .links {
-            margin-top: 20px;
-        }
-
-        .links a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: bold;
         }
 
         footer {
             text-align: center;
             padding: 30px;
             color: #666;
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 700px) {
-            .card {
-                padding: 18px;
-            }
-
-            header {
-                padding: 30px 15px;
-            }
         }
     </style>
 </head>
@@ -96,22 +80,33 @@
 
 <header>
     <h1>Impressum</h1>
-    <p class="subtitle">BreVo-Rechner</p>
+    <p>BreVo-Rechner</p>
 </header>
 
 <div class="container">
 
+    <div class="nav-buttons">
+
+        <a class="button" href="index.html">
+            ⬅ Zur Startseite
+        </a>
+
+        datenschutz.html
+            🔒 Datenschutzerklärung
+        </a>
+
+    </div>
+
     <div class="card">
-        <h2>Angaben gemäß § 5 TMG</h2>
+        <h2>Angaben zum Anbieter</h2>
 
         <p>
             Christoph Kiesel
         </p>
 
-        <div class="contact-box">
-            E-Mail:<br>
-            suppport.brevorechner@gmail.com
-        </div>
+        <p>
+            support.brevorechner@gmail.com
+        </p>
     </div>
 
     <div class="card">
@@ -123,30 +118,37 @@
     </div>
 
     <div class="card">
-        <h2>App-Informationen</h2>
+        <h2>Über die App</h2>
 
         <p>
-            BreVo-Rechner
+            Der BreVo-Rechner ist eine unabhängige
+            Hilfsanwendung zur Berechnung von
+            Festhaltekraft und Sicherungsmitteln.
         </p>
 
         <p>
-            Version 1.0.0
-        </p>
-
-        <p>
-            Berechnung von Festhaltekraft und Sicherungsmitteln
-            anhand hinterlegter Tabellenwerte.
+            Es besteht keine Verbindung zu
+            Eisenbahnunternehmen oder
+            Infrastrukturunternehmen.
         </p>
     </div>
 
     <div class="card">
-        <h2>Links</h2>
+        <h2>Haftungsausschluss</h2>
 
-        <div class="links">
-            <a href="datenschutz.html">
-                Zur Datenschutzerklärung
-            </a>
-        </div>
+        <p>
+            Die Nutzung erfolgt eigenverantwortlich.
+            Die Anwendung ersetzt keine betrieblichen
+            Vorschriften oder Regelwerke.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Version</h2>
+
+        <p>
+            BreVo-Rechner – Version 1.0.0
+        </p>
     </div>
 
 </div>
